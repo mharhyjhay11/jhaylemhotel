@@ -1,0 +1,234 @@
+*{
+		margin 0;
+		padding 0;
+		box-sizing: border-box;
+		list-style: none;
+		text-decoration: none;
+}
+
+.navbar{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 30px;
+		background-color: rgba(0,0,0,0.9);
+		position: sticky;
+		top: 0;
+		z-index: 1;
+} 
+.logo{
+		font: 10px;
+		letter-spacing: 2px;
+		color: crimson;
+}
+.nav-menu li{
+		display: inline-block;
+		padding: 10px 20px;
+}
+.nav-menu li a{
+		color: white;
+		transition: 0.6s;
+}
+
+.nav-menu li a:hover{
+		color: crimson;
+}
+.main-head{
+	background-image: url(https://a.hwstatic.com/image/upload/f_auto,q_auto,w_1900,h_823,c_limit,e_sharpen,e_improve,e_vibrance:60/v1/propertyimages/2/271769/34.JPG);
+	background-size: cover;
+	height: 140vh;
+	background-position: center;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: darken;
+}
+.banner-text{
+		top: 40%;
+		left: 20%;
+		position: absolute;
+		color: snow;
+		line-height: 1.5;
+		letter-spacing: 2px;
+}
+.banner-text h1{
+		font-size: 66px;
+}
+.banner-text h2{
+		font-size: 40px;
+}
+
+.btn{
+		top:76%;
+		left: 20%;
+		position: absolute;
+		line-height: 1.8;
+}
+
+.btn button{
+		width: 200px;
+		height: 40px;
+		border-radius: 25px;
+		background: transparent;
+		color: snow;
+		font-size: 20px;
+		border: 1px solid crimson;
+		transition: 0.5s;
+}
+
+.btn button:hover{
+		background: crimson;
+		transform: scale(1.1);
+}
+
+.container{
+		display: flex;
+		justify-content: space-around;
+		margin: 100px;
+}
+
+.container h1{
+		color: darkgrey;
+}
+
+.box{
+		margin: 20px;
+		height: 550px;
+		text-align: justify;
+		padding: 40px;
+		color: snow;
+		line-height: 1.6;
+		width: 340px;
+		box-shadow: 0 5px 10px black;
+}
+
+.box1{
+		background-image: url(https://www.facebook.com/150160802170800/photos/pb.100037289425861.-2207520000./150209035499310/?type=3);
+		background-size: cover;
+		background-position: center;
+		background-color: rgba(0,0,0,0.7);
+		background-blend-mode: darken;
+}
+
+.btn1 button{
+		width: 200px;
+		height: 30px;
+		border-radius: 25px;
+		background: transparent;
+		color: snow;
+		font-size: 16px;
+		border: 1px solid coral;
+		transition: 0.5s;
+		margin-top: 20px;
+}
+.btn1 button: hover{
+		background: coral;
+		transform: scale(1.1);
+}
+
+.box3{
+		background-image: url(https://ph.images.search.yahoo.com/images/view;_ylt=AwrKAvUAg9hjOIgc_fO1Rwx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzBiY2RmMjk2ODQ1ODA0ZGI4OTYxZTA1NTNhODJlMWEyBGdwb3MDMzMEaXQDYmluZw--?back=https%3A%2F%2Fph.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dcasa%2Bbonita%2Binn%26type%3DE210PH91215G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D33&w=1024&h=683&imgurl=ac-r.static.booking.cn%2Fimages%2Fhotel%2Fmax1024x768%2F225%2F225576617.jpg&rurl=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fph%2Fcasa-bonita-inn-oslob.zh-cn.html&size=55.6KB&p=casa+bonita+inn&oid=0bcdf296845804db8961e0553a82e1a2&fr2=piv-web&fr=mcafee&tt=%E5%A5%A5%E6%96%AF%E6%B4%9B%E5%B8%83OYO+455+Casa+Bonita+Inn+Ii+%E2%80%93+2021%E6%9C%80%E6%96%B0%E6%88%BF%E4%BB%B7&b=0&ni=21&no=33&ts=&tab=organic&sigr=6tQlhYeEzHAU&sigb=mXttlWFkpSiZ&sigi=kDinMetGgjk4&sigt=JMrfiBMw7H8C&.crumb=lKLadzwbIuB&fr=mcafee&fr2=piv-web&type=E210PH91215G0);
+		background-size: cover;
+		background-position: center;
+		background-color: rgba(0,0,0,0.7);
+		background-blend-mode: darken;
+}
+
+
+
+
+.btn3 button{
+		width: 200px;
+		height: 30px;
+		border-radius: 25px;
+		background: transparent;
+		color: snow;
+		font-size: 18px;
+		border: 1px deepskyblue;
+		transition: 0.5s;
+		margin-top: 20px;
+}
+.btn3 button: hover{
+		background: deepskyblue;
+		transform: scale(1.1);
+}
+
+
+
+.container-2 {
+		background-image: url(https://ph.images.search.yahoo.com/images/view;_ylt=AwrKAvWIg9hj05wd8zG1Rwx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzBiY2ZlODFiMThjNTY1ZTFhYjA5NzQxYjQ3ZjkxZDgxBGdwb3MDMTU2BGl0A2Jpbmc-?back=https%3A%2F%2Fph.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dcasa%2Bbonita%2Binn%26type%3DE210PH91215G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D156&w=2048&h=1365&imgurl=lookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D150212615498952&rurl=https%3A%2F%2Fwww.facebook.com%2FCasa-Bonita-Inn-1-and-2-150160802170800%2F&size=304.9KB&p=casa+bonita+inn&oid=0bcfe81b18c565e1ab09741b47f91d81&fr2=piv-web&fr=mcafee&tt=Casa+Bonita+Inn+1+and+2+-+Home&b=121&ni=21&no=156&ts=&tab=organic&sigr=mBnBTyeBds2f&sigb=cQlmk2KGtAIp&sigi=ffoi43YfU4FJ&sigt=lwell.pmYfpF&.crumb=lKLadzwbIuB&fr=mcafee&fr2=piv-web&type=E210PH91215G0);
+		background-size: cover;
+		background-position: center;
+		background-color:rgba(0,0,0,0.7);
+		background-blend-mode: darken;
+		height: 80vh;
+}
+
+.content h1{
+		text-align: center;
+		font-size: 68px; 
+		color: snow;
+		padding: 100px;
+}
+.content p{
+		font-size: 25px;
+		padding: 45px 100px;
+		letter-spacing: 2px;
+		text-align: justify;
+		color: seashell;
+}
+.contact-box{
+		border:none;
+		border-radius:none;
+		width: 500px;
+		height:400px;
+		position:relative;
+		left: 25%;
+		margin: 100p;
+		background-image:linear-gradient (to left, skyblue,white);
+}
+.contact-box h2{
+		text-align: center;
+		padding: 20px;
+}
+
+.contact-box button: hover{
+		background: crimson;
+		transform: scale(1.5);
+}
+	
+.footer{
+		display: flex; 
+		justify-content: space-around;
+		border: 2px solid;
+		width: 100%;
+		height:300vh;
+		background-image: url(https://ph.images.search.yahoo.com/images/view;_ylt=AwrKAvUAg9hjOIgc7fO1Rwx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2EwYWM2NzU5ZWQ3YTM3OGQ2Yjg3ZGZiYTY1NTlmZDFhBGdwb3MDMTcEaXQDYmluZw--?back=https%3A%2F%2Fph.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dcasa%2Bbonita%2Binn%26type%3DE210PH91215G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D17&w=300&h=214&imgurl=www.cebucitytour.com%2Fwp-content%2Fuploads%2F2018%2F10%2FBonita-Inn-Oslob-300x214.jpg&rurl=https%3A%2F%2Fwww.cebucitytour.com%2Fcebu-destinations%2Foslob-whale-shark-watching%2Ftop-5-cheapest-accommodation-in-oslob-cebu%2F&size=21.9KB&p=casa+bonita+inn&oid=a0ac6759ed7a378d6b87dfba6559fd1a&fr2=piv-web&fr=mcafee&tt=Top+5+Cheapest+Accommodation+in+Oslob%2C+Cebu+%7C+Cebu+City+Tour&b=0&ni=21&no=17&ts=&tab=organic&sigr=QZWdIBF6DHiQ&sigb=XfSvY_V.JYko&sigi=BDVvTwEQp_Xp&sigt=fBf_G7zPlbuj&.crumb=lKLadzwbIuB&fr=mcafee&fr2=piv-web&type=E210PH91215G0);
+		background-size: cover;
+		background-position: center;
+		background-color: rgba(0,0,0,0.3);
+		background-blend-mode: darken;
+}
+.div_1{
+		color: aliceblue;
+		font-size: 50px;
+		margin-top: 150px;
+		line-height:2;
+}
+.div_ h3{
+		font-size: 25px;
+		color: deepskyblue;
+}
+.div_1 li a{
+		color: snow;
+		transition: 0.5s;
+}
+.div_1 li a:hover{
+		color: coral;
+}
+.div4 img{
+		width: 40px;
+		display: block; 
+		padding: 10px;
+		cursor: pointer;
+}
+.span{
+		color: crimson;
+}
